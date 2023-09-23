@@ -1,7 +1,7 @@
 // ...
 
     return Scaffold(
-      body: Column(
+      body = Column(
         children: [
           Text('A random AWESOME idea:'),  // ← Example change.
           Text(appState.current.asLowerCase),
